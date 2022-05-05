@@ -1,11 +1,11 @@
 created: 20201210171047824
 description: Toggle between grey/beige colour palette
-modified: 20210118213335643
+modified: 20220505091839688
 tags: $:/tags/PageControls
 title: $:/themes/nico/notebook/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki
 
-<span class="desktop-only">
+\define paletteButton(offset)
   <$vars
     palettes="[all[tiddlers+shadows]tag[$:/tags/notebook/Palette]]"
     popupTiddler=<<qualify "$:/state/notebook/palette-dropdown">>
@@ -24,7 +24,7 @@ type: text/vnd.tiddlywiki
 	<span class="tc-btn-text">Switch colours</span>
       </$list>
 
-      <$reveal state=<<popupTiddler>> type="popup" position="belowleft" class="tc-drop-down">
+      <$reveal state=<<popupTiddler>> type="popup" position=$offset$ positionAllowNegative="yes" class="tc-drop-down">
 	<$list filter=<<palettes>>>
 	  <$button class="tc-btn-invisible">
 	    {{!!name}}
@@ -35,4 +35,10 @@ type: text/vnd.tiddlywiki
 
     </$button>
   </$vars>
+\end
+<span class="desktop-only">
+  <<paletteButton belowleft>>
+</span>
+<span class="mobile-only">
+  <<paletteButton aboveleft>>
 </span>
