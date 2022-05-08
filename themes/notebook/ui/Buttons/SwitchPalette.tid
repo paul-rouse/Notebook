@@ -1,6 +1,6 @@
 created: 20201210171047824
 description: Toggle between grey/beige colour palette
-modified: 20220505091839688
+modified: 20220507085704916
 tags: $:/tags/PageControls
 title: $:/themes/nico/notebook/ui/Buttons/SwitchPalette
 type: text/vnd.tiddlywiki
@@ -24,7 +24,7 @@ type: text/vnd.tiddlywiki
 	<span class="tc-btn-text">Switch colours</span>
       </$list>
 
-      <$reveal state=<<popupTiddler>> type="popup" position=$offset$ positionAllowNegative="yes" class="tc-drop-down">
+      <$reveal state=<<popupTiddler>> type="popup" position=$offset$ positionAllowNegative="yes" class="tc-drop-down nc-narrow">
 	<$list filter=<<palettes>>>
 	  <$button class="tc-btn-invisible">
 	    {{!!name}}
