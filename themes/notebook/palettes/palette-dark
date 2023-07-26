@@ -32,10 +32,10 @@ message-border: #111
 message-foreground: #d5e2f1
 modal-backdrop: <<colour foreground>>
 modal-background: <<colour background>>
-modal-border: #999999
-modal-footer-background: #f5f5f5
-modal-footer-border: #dddddd
-modal-header-border: #eeeeee
+modal-border: #778591
+modal-footer-background: #2f343e
+modal-footer-border: #111315
+modal-header-border: #778591
 muted-foreground: #999999
 notification-background: #3a5e39
 notification-border: #192c19
@@ -85,9 +85,9 @@ tiddler-editor-border-image: #ffffff
 tiddler-editor-border: rgba(255, 255, 255, 0.3)
 tiddler-editor-fields-even: <<colour background>>
 tiddler-editor-fields-odd: #2c323b
-tiddler-info-background: #f8f8f8
-tiddler-info-border: #dddddd
-tiddler-info-tab-background: #f8f8f8
+tiddler-info-background: #2f343e
+tiddler-info-border: #111315
+tiddler-info-tab-background: <<colour primary>>
 tiddler-link-background: <<colour background>>
 tiddler-link-foreground: <<colour primary>>
 tiddler-subtitle-foreground: #aaaaaa

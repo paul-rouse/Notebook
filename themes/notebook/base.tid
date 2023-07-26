@@ -17,6 +17,13 @@ type: text/vnd.tiddlywiki
     $text$
   </$reveal>
 \end
+
+/* Modal dialogs */
+
+.tc-modal {
+  border-radius: 6px;
+  overflow: hidden;
+}
   
 /* Top and bottom bars */
 
