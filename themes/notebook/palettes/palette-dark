@@ -32,10 +32,10 @@ message-border: #111
 message-foreground: #d5e2f1
 modal-backdrop: <<colour foreground>>
 modal-background: <<colour background>>
-modal-border: #999999
-modal-footer-background: #f5f5f5
-modal-footer-border: #dddddd
-modal-header-border: #eeeeee
+modal-border: #778591
+modal-footer-background: #2f343e
+modal-footer-border: #111315
+modal-header-border: #778591
 muted-foreground: #999999
 notification-background: #3a5e39
 notification-border: #192c19
